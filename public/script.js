@@ -21,7 +21,7 @@ export const getRandomWord = async () => {
   .then(data => {
     document.querySelector('.word-container').textContent = data;
   })
-  .catch(error => {
+  .catch(() => {
     document.querySelector('.word-container').textContent = 'There was an error getting your word.';
   });
 };
