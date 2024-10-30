@@ -1,0 +1,36 @@
+{
+  "name": "circleci-tech-challenge",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ActionJonny/circleci-tech-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ActionJonny/circleci-tech-challenge/issues"
+  },
+  "homepage": "https://github.com/ActionJonny/circleci-tech-challenge#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "axios": "^1.7.7",
+    "babel-jest": "^29.7.0",
+    "express": "^4.21.1",
+    "node-fetch": "^2.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "description": ""
+}
